@@ -1,7 +1,12 @@
 # 4.Execution_of_NetworkCommands
-## AIM :Use of Network commands in Real Time environment
-## Software : Command Prompt And Network Protocol Analyzer
-## Procedure: To do this EXPERIMENT- follows these steps:
+## Name:Sandeep S
+## Reg : 212223220092
+## AIM :
+Use of Network commands in Real Time environment
+## Software :
+Command Prompt And Network Protocol Analyzer
+## Procedure: 
+To do this EXPERIMENT- follows these steps:
 <BR>
 In this EXPERIMENT- students have to understand basic networking commands e.g cpdump, netstat, ifconfig, nslookup ,traceroute and also Capture ping and traceroute PDUs using a network protocol analyzer 
 <BR>
@@ -25,7 +30,6 @@ This commands includes
 <BR>
 • Other IP Commands e.g. show ip route etc.
 <BR>
-
 # Program
 # PING COMMAND
 # CLIENT
@@ -44,7 +48,6 @@ while True:
         c.send("Not Found".encode())
 ```
 # SERVER
-
 ```
 import socket 
 s=socket.socket() 
@@ -54,13 +57,10 @@ while True:
     s.send(ip.encode()) 
     print(s.recv(1024).decode())
 ```
-
 # Output
 # Client
 ![image](https://github.com/user-attachments/assets/33929937-c9d5-4332-b7a7-3f4052f1d3cd)
-
 # Server
-
 ![image](https://github.com/user-attachments/assets/612ec5f4-f08b-4026-a662-174e3caa8b61)
 # TRANCEROUTE COMMAND
 ```
@@ -72,6 +72,5 @@ print(result,unans)
 # OUTPUT
 # TRANCEROUTE COMMAND
 ![image](https://github.com/user-attachments/assets/200698e6-30d3-4b87-9e41-c618d7da8b40)
-
 ## Result
 Thus Execution of Network commands Performed 
